@@ -1,0 +1,175 @@
+/* ************
+    global variable
+************ */
+:root{
+    /**** Colors ****/
+    --text-color: ;
+    --title-color: ;
+    --body-color: ;
+    /**** Font and typography ****/
+     --body-font: "", sans-serif;
+     /*Font Size*/
+     --normal-font-size: ;
+     --h1-font-size: ;
+     /*Font weight*/
+     --font-regular: 400;
+     --font-medium: 500;
+     --font-bold: 700;
+}
+
+/* ************
+    Responsive typography
+************ */
+
+
+@media screen and (max-width: 330px) {
+    :root {
+
+    }
+}
+
+@media screen and (min-width: 540px) {
+    :root {
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+    :root {
+
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    :root {
+
+    }
+}
+
+/* ************
+    BASE
+************ */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+  
+html {
+  scroll-behavior: smooth;
+}
+  
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+  
+h1, h2, h3, h4 {
+  color: var(--title-color);
+  font-family: ;
+  font-weight: ;
+}
+  
+ul {
+  list-style: none;
+}
+  
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+  
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ************
+    REUSABLE CSS CLASSES
+************ */
+.container{
+    max-width: 1120px;
+    margin-inline: em;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.grid{
+    display: grid;
+    gap: 1.5rem;
+}
+.section {
+    padding-block: em em;
+}
+  
+.section__title {
+  text-align: center;
+  font-size: var(--h1-font-size);
+  margin-bottom: em;
+}
+
+.main {
+    overflow: hidden;
+}
+
+
+
+/***********
+  HEADER & NAV 
+ ***********/
+ .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: ;
+    z-index: 100;
+  }
+  /* Navigation for mobile devices */
+  @media  screen and (max-width:1150px)  {
+    /* لي فيها ul list */
+    .nav__menu{
+      position: fixed;
+      top: -100%;
+      left: 0;
+      width: 100%;
+    }
+  }
+  /* Show menu */
+
+  .show-menu{
+    top: 0px;
+  }
+
+  /* Responsive header */
+  @media screen and (max-width: 330px) {
+    
+}
+
+@media screen and (min-width: 540px) {
+    
+}
+
+@media screen and (min-width: 768px) {
+    
+}
+
+@media screen and (min-width: 1150px) {
+    
+}
+
+/***********
+  main 
+ ***********/
+
+
+
+/***********
+  footer 
+ ***********/
